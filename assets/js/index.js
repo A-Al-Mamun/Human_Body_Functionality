@@ -17,12 +17,12 @@ function testHead(){
     var textHead = document.getElementsByTagName('p')[1];
 
     // Head
-    if((lineHead.style.display == 'none')&&(textHead.style.display == 'none')){
-        lineHead.style.display = 'block';
-        textHead.style.display = 'block';
-    }else{
+    if((lineHead.style.display == 'block')&&(textHead.style.display == 'block')){
         lineHead.style.display = 'none';
         textHead.style.display = 'none';
+    }else{
+        lineHead.style.display = 'block';
+        textHead.style.display = 'block';
     }
 
 }
@@ -33,12 +33,12 @@ function testRightHand(){
     var textRightHand = document.getElementsByTagName('p')[2];
 
     
-    if((lineRightHand.style.display == 'none')&&(textRightHand.style.display == 'none')){
-        lineRightHand.style.display = 'block';
-        textRightHand.style.display = 'block';
-    }else{
+    if((lineRightHand.style.display == 'block')&&(textRightHand.style.display == 'block')){
         lineRightHand.style.display = 'none';
         textRightHand.style.display = 'none';
+    }else{
+        lineRightHand.style.display = 'block';
+        textRightHand.style.display = 'block';
     }
 
 }
@@ -49,12 +49,12 @@ function testLeftHand(){
     var textLeftHand = document.getElementsByTagName('p')[3];
 
 
-    if((lineLeftHand.style.display == 'none')&&(textLeftHand.style.display == 'none')){
-        lineLeftHand.style.display = 'block';
-        textLeftHand.style.display = 'block';
-    }else{
+    if((lineLeftHand.style.display == 'block')&&(textLeftHand.style.display == 'block')){
         lineLeftHand.style.display = 'none';
         textLeftHand.style.display = 'none';
+    }else{
+        lineLeftHand.style.display = 'block';
+        textLeftHand.style.display = 'block';
     }
 
 }
@@ -65,12 +65,12 @@ function testRightLeg(){
     var textRightLeg = document.getElementsByTagName('p')[4];
 
     
-    if((lineRightLeg.style.display == 'none')&&(textRightLeg.style.display == 'none')){
-        lineRightLeg.style.display = 'block';
-        textRightLeg.style.display = 'block';
-    }else{
+    if((lineRightLeg.style.display == 'block')&&(textRightLeg.style.display == 'block')){
         lineRightLeg.style.display = 'none';
         textRightLeg.style.display = 'none';
+    }else{
+        lineRightLeg.style.display = 'block';
+        textRightLeg.style.display = 'block';
     }
 
 }
@@ -81,12 +81,12 @@ function testLeftLeg(){
     var textLeftLeg = document.getElementsByTagName('p')[5];
 
 
-    if((lineLeftLeg.style.display == 'none')&&(textLeftLeg.style.display == 'none')){
-        lineLeftLeg.style.display = 'block';
-        textLeftLeg.style.display = 'block';
-    }else{
+    if((lineLeftLeg.style.display == 'block')&&(textLeftLeg.style.display == 'block')){
         lineLeftLeg.style.display = 'none';
         textLeftLeg.style.display = 'none';
+    }else{
+        lineLeftLeg.style.display = 'block';
+        textLeftLeg.style.display = 'block';
     }
 
 }
