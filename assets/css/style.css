@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Work Sans", sans-serif;
+}
+
+.header {
+padding: 0 3rem;
+height: 4rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #e7f5ff;
+}
+
+.header .logo {
+height: 3rem;
+}
+
+.navbar{}
+
+.d-block{
+    display: block;
+}
+
+.navbar-list{
+    display: flex;
+}
+.navbar-list li{
+    list-style: none;
+}
+.navbar-link {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+
+
+
+.mobile-navbar-btn {
+    display: none;
+cursor: pointer;
+border-radius: 10px;
+padding: 10px;
+transition: 0.4s;
+}
+.mobile-navbar-btn:hover{
+    background: #212529;
+}
+
+.mobile-navbar-btn i{
+    font-size: 24px;
+    color: #212529;
+    transition: 0.4s;
+}
+.mobile-navbar-btn i:hover{
+    color: #f3f0ff;
+}
+.mobile-navbar-btn .open-btn{}
+.mobile-navbar-btn .close-btn{}
+
+
+/* ===========================================
+Hero and Service Section Start
+======================================= */
+#section-hero{
+padding: 9.6rem 0;
+width: 100%;
+background-color: #a5d8ff;
+height: 60vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.section-change{
+    background-color: red!important;
+    /* width: 100%; */
+}
+
+
+#section-hero p{
+font-size: 3.2rem;
+}
+
+.mystyle {
+    width: 100%;
+    /* padding: 25px; */
+    background-color: coral!important;
+    color: white;
+    font-size: 50px;
+}
+
+
+/* Human Body Section Start */
+.human-section{
+    padding: 40px 0;
+    background: #21252920;
+}
+.human-body{
+    text-align: center;
+    width: 400px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 2px solid black;
+    position: relative;
+}
+.human-body h1{
+    margin-bottom: 30px;
+}
+.human-body img{
+    width: 100%;
+}
+
+
+#head{
+    position: absolute;
+    left: 187px;
+    top: 0;
+    width: 100px;
+    height: 85px;
+}
+#span{
+    background-color: #ffffff30;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+#span:hover{
+    background-color: #f3f0ff;
+}
+
+#head .line{
+    background-color: #fff;
+    width: 5px;
+    height: 70px;
+    transform: rotate(68deg);
+    position: absolute;
+    left: 42px;
+    top: 28px;
+    display: none;
+}
+#head p{
+    position: absolute;
+    left: 80px;
+    top: 39px;
+    font-weight: 600;
+    display: none;
+}
+
+
+#right-hand{
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    /* border: 2px solid black; */
+    width: 95px;
+    height: 85px;
+}
+#right-span{
+    background-color: #ffffff50;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+#right-span:hover{
+    background-color: #f3f0ff;
+}
+
+#right-hand .line{
+    background-color: #fff;
+    width: 5px;
+    height: 35px;
+    transform: rotate(330deg);
+    position: absolute;
+    left: 72px;
+    top: 40px;
+    display: none;
+}
+#right-hand p{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-weight: 600;
+    display: none;
+}
+
+
+
+#left-hand{
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    /* border: 2px solid black; */
+    width: 95px;
+    height: 85px;
+}
+#left-span{
+    background-color: #ffffff50;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+#left-span:hover{
+    background-color: #f3f0ff;
+}
+
+#left-hand .line{
+    background-color: #fff;
+    width: 5px;
+    height: 35px;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 72px;
+    top: 40px;
+    display: none;
+}
+#left-hand p{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-weight: 600;
+    display: none;
+}
+
+
+
+
+#right-leg{
+    position: absolute;
+    left: 80px;
+    bottom: 70px;
+    /* border: 2px solid black; */
+    width: 95px;
+    height: 85px;
+}
+#right-leg-span{
+    background-color: #ffffff50;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+#right-leg-span:hover{
+    background-color: #f3f0ff;
+}
+
+#right-leg .line{
+    background-color: #fff;
+    width: 5px;
+    height: 55px;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 35px;
+    bottom: -20px;
+    display: none;
+}
+#right-leg p{
+    position: absolute;
+    right: 70px;
+    bottom: 0px;
+    font-weight: 600;
+    display: none;
+}
+
+
+
+#left-leg{
+    position: absolute;
+    right: 85px;
+    bottom: 70px;
+    /* border: 2px solid black; */
+    width: 95px;
+    height: 85px;
+}
+#left-leg-span{
+    background-color: #ffffff50;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+#left-leg-span:hover{
+    background-color: #f3f0ff;
+}
+
+#left-leg .line{
+    background-color: #fff;
+    width: 5px;
+    height: 55px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 38px;
+    bottom: -20px;
+    display: none;
+}
+#left-leg p{
+    position: absolute;
+    left: 70px;
+    bottom: 0px;
+    font-weight: 600;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* #head:hover{
+    background: #fff;
+} */
+/* Human Body Section End */
+
+/* ===========================================
+Responsive Codes 
+======================================= */
+
+/* 980px  */
+@media (max-width: 62em) {
+    .mobile-navbar-btn {
+        display: block;
+        z-index: 999;
+        border: 3px solid #212529;
+        color: #212529;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header .logo {
+        width: 40%;
+    }
+
+    .navbar {
+        position: absolute;
+        left: 0%;
+        top: 4rem;
+        width: 100%;
+        height: 60vh;
+        background: #200c70c4;
+        display: none;
+    }
+    .navbar-list {
+        flex-direction: column;
+    }
+    .navbar-list li{
+        padding: 15px 0;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-link{
+        color: red;
+        width: 100%;
+        transition: 0.4s;
+    }
+    .navbar-link:hover{
+        background: #212529;
+        color: #f3f0ff;
+    }
+
+    .mobile-navbar-btn{
+
+    }
+    .mobile-navbar-btn .close-btn{
+        display: none;
+    }
+
+    
+}
+
+/* Below 560px  */
+@media (max-width: 35em) {
+    .header {
+        padding: 0 2.4rem;
+    }
+
+    .header .logo {
+        width: 60%;
+    }
+}
