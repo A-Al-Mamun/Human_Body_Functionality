@@ -31,14 +31,48 @@ height: 3rem;
 }
 .navbar-list li{
     list-style: none;
+    position: relative;
 }
 .navbar-link {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
     padding: 0 10px;
+    
 }
 
+
+.navbar-list li ul{
+    position: absolute;
+    top: 180%;
+    left: 0;
+    padding: 10px;
+    background-color: #e7f5ff;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s ease-in-out;
+}
+.navbar-list li ul li{
+    width: 150px;
+    padding: 10px;
+    transition: 0.4s ease-in-out;
+}
+.navbar-list li ul li a{
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar-list li ul li a:hover{}
+
+.navbar-list li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-list li ul li:hover{
+    background-color: #a5d8ff;
+    display: inline-block;
+    padding-left: 15px;
+}
 
 
 
